@@ -1,0 +1,82 @@
+.wrap{
+    width: 1200px;
+    margin: 50px auto;
+}
+.from{
+    width: 400px;
+    padding: 1rem 1.2rem;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(80,80,80,0.5);
+    box-sizing: border-box;
+    position: relative;
+}
+.box{
+    width: 35px;
+    height: 35px;
+    background-image: url("../rasmlar/1.svg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center center;
+    vertical-align: middle;
+    margin-left: 5px;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 30px;
+    left: 320px;
+    z-index: 2;
+}
+label{
+    width: 100%;
+    margin-bottom: 20px;
+}
+input{
+    width: 100%;
+    padding: 0.3rem 1.2rem;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+label[for=ism]{
+    width: 40%;
+    margin-left: 20px;
+}
+input[type=text]{
+    width: 45%;
+    margin-bottom: 30px;
+}
+label[for=familiya]{
+    width: 40%;
+    margin-left: 100px;
+}
+input[type=text]{
+    width: 45%;
+    margin-bottom: 20px;
+}
+input[id=shirkat]{
+    width: 100%;
+}
+label[for=mamlakat]{
+    width: 100%;
+}
+select{
+    width: 100%;
+    padding: 0.3rem;
+    margin-bottom: 20px;
+}
+label[for=adress1]{
+    width: 100%;
+    margin-bottom: 20px;
+}
+input[id=adress1]{
+    width: 100%;
+    margin-bottom: 20px;
+}
+label[for=adress2]{
+    width: 100%;
+    margin-bottom: 20px;
+}
+input[id=adress2]{
+    width: 100%;
+    margin-bottom: 20px;
+}

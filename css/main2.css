@@ -1,0 +1,66 @@
+.wrap{
+    width: 1200px;
+    margin: 50px auto;
+}
+.from{
+    width: 500px;
+    padding: 1rem 1.2rem;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(80,80,80,0.5);
+    box-sizing: border-box;
+    position: relative;
+}
+.box{
+    width: 35px;
+    height: 35px;
+    background-image: url("../rasmlar/1.svg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center center;
+    vertical-align: middle;
+    margin-left: 5px;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 30px;
+    left: 420px;
+    z-index: 2;
+}
+label{
+    width: 100%;
+    padding: 0.5rem 1.5rem;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    text-align: left;
+}
+input{
+    width: 100%;
+    padding: 0.5rem 1.5rem;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+h5{
+    display: inline-block;
+}
+.item1{
+    color: #bbb8b8;
+    text-align: left;
+    margin-bottom: 10px;
+}
+input[type=password]{
+    width: 45%;
+    display: revert;
+    margin: 0 5px;
+    margin-bottom: 20px;
+}
+label[for=password]{
+    width: 40%;
+    margin-left: 20px;
+    text-align: left;
+}
+label[for=confirm_password]{
+    width: 40%;
+    text-align: right;
+    margin-left: 100px;
+}
